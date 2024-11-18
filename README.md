@@ -9,6 +9,11 @@ A terminal emulator and multiplexer written in Rust.
 
 **Features**: Cross-platform support, GPU acceleration, and extensive configuration options.  
 
+```bash
+# sets wezterm config in Windoes ENV
+setx WEZTERM_CONFIG_FILE "C:\Users\<users>\github\configs\wezterm\.wezterm.lua"
+```
+
 ---
 
 ### [Neovim](https://neovim.io/)  
