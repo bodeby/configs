@@ -1,0 +1,75 @@
+# No blank line before prompt
+add_newline = false
+
+# Minimal prompt structure
+format = "$directory$git_branch$git_status$character"
+
+# Directory (shortened path)
+[directory]
+style = "blue"
+truncation_length = 3
+truncate_to_repo = true
+
+# Git branch
+[git_branch]
+symbol = " "
+style = "green"
+
+# Git status (changes, staged, etc.)
+[git_status]
+style = "purple"
+
+# Prompt symbol
+[character]
+success_symbol = "❯"
+error_symbol = "❯"
+
+# ----------------------------
+# Disable all language runtimes
+# ----------------------------
+
+[nodejs]
+disabled = true
+
+[python]
+disabled = true
+
+[rust]
+disabled = true
+
+[golang]
+disabled = true
+
+[c]
+disabled = true
+
+[cpp]
+disabled = true
+
+[java]
+disabled = true
+
+[package]
+disabled = true
+
+# ----------------------------
+# Optional: keep prompt fast
+# ----------------------------
+
+[cmd_duration]
+disabled = true
+
+[hostname]
+disabled = true
+
+[username]
+disabled = true
+
+[memory_usage]
+disabled = true
+
+[battery]
+disabled = true
+
+[time]
+disabled = true
