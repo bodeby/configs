@@ -1,0 +1,15 @@
+# Bodeby Ghostty config
+
+# Shell
+shell-integration = bash
+
+# Container
+quick-terminal-position = center
+window-decoration = true
+
+# Styles
+theme = Kanagawa Wave
+
+# Window
+background-opacity = 0.8
+background-blur = 10
